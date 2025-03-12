@@ -309,14 +309,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  column-gap: 40px;
 }
 
 .step {
   display: flex;
   flex-direction: column;
   flex-basis: 220px;
-  margin: 20px;
 }
 
 .step__title {
@@ -342,7 +341,7 @@
   padding-right: 80px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -378,23 +377,19 @@
 .footer__list-item {
   margin-bottom: 0px;
 }
-.footer__list-item-text {
-  margin-bottom: 0%;
-  margin-top: 0%;
-}
 
 .footer__column-link {
-  margin: 0%;
   display: flex;
+  align-items: start;
   color: white;
   text-decoration: none;
   margin-top: 16px;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
